@@ -1,0 +1,20 @@
+body {
+  margin-top: 4.6875rem;
+}
+
+#home-quote {
+  background: url("../img/bg-quote.jpg") center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  #home-quote blockquote p {
+    font-size: 2.5rem;
+  }
+  body {
+    margin-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
